@@ -1,87 +1,87 @@
 body {
-	background-image: url(/style/photos/background.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-color: #111111;
-	padding-left: 120px;
-	padding-right: 120px;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	color: #EEEEEE;
-	text-align: left;
-	font-family: Helvetica, Arial, sans-serif;
-	}
+    background-image: url(/style/photos/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #111111;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #EEEEEE;
+    text-align: left;
+    font-family: Helvetica, Arial, sans-serif;
+    }
 
 h1 {
-	font-size: 50px;
-	text-align: center;
-	}
+    font-size: 50px;
+    text-align: center;
+    }
 
 h2 {
-	font-size:36px;
-	text-align: center;
+    font-size:36px;
+    text-align: center;
 }
 
 h3 {
-	font-size:24px;
-	text-align: center;
+    font-size:24px;
+    text-align: center;
 }
 
 p, blockquote, h4 {
-	display: inline-block;
-	text-align: left; 
-	padding-left: 30px;
-	}
+    display: inline-block;
+    text-align: left;
+    padding-left: 30px;
+    }
 
 blockquote {
-	border-left: 2px solid #aaffff;
-	font-style: italic;
-	padding-left: 15px;
-	}
+    border-left: 2px solid #aaffff;
+    font-style: italic;
+    padding-left: 15px;
+    }
 
 a {
-	color: #eeeeee;
-	text-decoration: none;
-	z-index:9999999
-	}
+    color: #eeeeee;
+    text-decoration: none;
+    z-index:9999999
+    }
 
 a:hover {
-	color: #77ffbb;
-	}
+    color: #77ffbb;
+    }
 
 table {
-	background-color: #111111;
-	color: #EEEEEE;
-	margin-left: auto;
-	margin-right: auto;
-	width: 750px;
-	border: 6px solid #EEEEEE;
-	border-collapse: collapse;
-	}
+    background-color: #111111;
+    color: #EEEEEE;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    border: 6px solid #EEEEEE;
+    border-collapse: collapse;
+    }
 
-td {	
-	text-align: left;
-	vertical-align: top;
-	padding-left: 30px;
-	padding-right: 30px;
-	border: 4px solid #FFFFFF;
-	}
+td {
+    text-align: left;
+    vertical-align: top;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 4px solid #FFFFFF;
+    }
 
 tr {
-	border: 4px solid #FFFFFF;
-	width: 50%;
-	}
-	
+    border: 4px solid #FFFFFF;
+    width: 50%;
+    }
+
 iframe {
-	display: block;
-	margin: 0 auto;
-	}
-	
+    display: block;
+    margin: 0 auto;
+    }
+
 input {
-	background-color: #111111;
-	color: #EEEEEE;
-	font-family: Arial,;
-	padding-top: 5px;
-	padding-bottom: 5px;
+    background-color: #111111;
+    color: #EEEEEE;
+    font-family: Arial,;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
