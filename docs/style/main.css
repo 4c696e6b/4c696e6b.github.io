@@ -99,9 +99,6 @@ input {
 .subTextArea {
     background-color: #111111;
     color: #EEEEEE;
-    margin-left: auto;
-    margin-right: auto;
-    width: 746px;
     border: 2px solid #EEEEEE;
     border-collapse: collapse;
 }
