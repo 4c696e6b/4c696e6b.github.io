@@ -1,5 +1,5 @@
 body {
-    background-image: url(/style/photos/background.png);
+    background-image: url(./photos/background.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -10,7 +10,7 @@ body {
     padding-bottom: 30px;
     color: #EEEEEE;
     text-align: left;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Source Code Pro, Lucida Console, Monaco, monospace;
     }
 
 h1 {
@@ -30,7 +30,7 @@ h3 {
 
 p, blockquote, h4 {
     display: inline-block;
-    text-align: left;
+    text-align: center;
     padding-left: 30px;
     }
 
@@ -84,4 +84,24 @@ input {
     font-family: Arial,;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.mainTextArea {
+    background-color: #111111;
+    color: #EEEEEE;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+    border: 4px solid #EEEEEE;
+    border-collapse: collapse;
+}
+
+.subTextArea {
+    background-color: #111111;
+    color: #EEEEEE;
+    margin-left: auto;
+    margin-right: auto;
+    width: 746px;
+    border: 2px solid #EEEEEE;
+    border-collapse: collapse;
 }
