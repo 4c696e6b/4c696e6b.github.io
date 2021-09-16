@@ -28,19 +28,6 @@ h3 {
     text-align: center;
 }
 
-p, blockquote, h4 {
-    display: inline-block;
-    text-align: center;
-    padding-left: 30px;
-    font-size: 24px;
-    }
-
-blockquote {
-    border-left: 2px solid #aaffff;
-    font-style: italic;
-    padding-left: 15px;
-    }
-
 a {
     color: #eeeeee;
     text-decoration: none;
@@ -65,14 +52,6 @@ td {
     padding-bottom: 30px;
     font-size: 24px;
     }
-
-input {
-    background-color: #111111;
-    color: #EEEEEE;
-    font-family: Arial,;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
 
 .mainTextArea {
     background-color: #111111;
