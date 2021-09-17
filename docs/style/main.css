@@ -73,3 +73,9 @@ td {
     height:40px;
     vertical-align: middle;
 }
+
+.largeIcon {
+    width:150px;
+    height:150px;
+    vertical-align: middle;
+}
