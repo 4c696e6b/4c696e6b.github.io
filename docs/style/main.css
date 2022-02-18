@@ -3,12 +3,12 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: #111111;
+    background-color: #282a36;
     padding-left: 120px;
     padding-right: 120px;
     padding-top: 30px;
     padding-bottom: 30px;
-    color: #EEEEEE;
+    color: #f8f8f2;
     text-align: left;
     font-family: Source Code Pro, Lucida Console, Monaco, monospace;
     }
@@ -29,13 +29,13 @@ h3 {
 }
 
 a {
-    color: #eeeeee;
+    color: #f8f8f2;
     text-decoration: none;
     z-index:9999999
     }
 
 a:hover {
-    color: #77ffbb;
+    color: #50fa7b;
     }
 
 table {
@@ -54,17 +54,17 @@ td {
     }
 
 .mainTextArea {
-    background-color: #111111;
-    color: #EEEEEE;
+    background-color: #282a36;
+    color: #f8f8f2;
     margin-left: auto;
     margin-right: auto;
     width: 750px;
-    border: 4px solid #EEEEEE;
+    border: 4px solid #44475a;
     border-collapse: collapse;
 }
 
 .subTextArea {
-    border: 2px solid #EEEEEE;
+    border: 2px solid #44475a;
     border-collapse: collapse;
 }
 
