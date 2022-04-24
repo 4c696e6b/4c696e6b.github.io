@@ -39,7 +39,6 @@ const usedLines = [];
 for (var i = 0; i < 24; i++) {
 
     var same = true;
-
     while (same) {
 
         var line = getLine();
@@ -51,13 +50,11 @@ for (var i = 0; i < 24; i++) {
     }
 
     usedLines.push(line);
-
     var id = "b" + String(i+1);
     document.getElementById(id).value = line;
 }
 
 document.getElementById('middle').value = ":) WHEEL SPIN :)";
 
-function hlBtn () {
-  $(this).toggleClass('hlBtn');
-};
+
+function hlBtn() {$(this).toggleClass('hlBtn');}

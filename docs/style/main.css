@@ -35,6 +35,10 @@ a {
     z-index:9999999
     }
 
+.bigLink {
+    color: #bd93f9;
+}
+
 a:hover {
     color: #50fa7b;
     }
