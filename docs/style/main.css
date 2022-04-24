@@ -70,13 +70,19 @@ td {
 }
 
 .smallIcon {
-    width:40px;
-    height:40px;
+    width: 40px;
+    height: 40px;
     vertical-align: middle;
 }
 
 .largeIcon {
-    width:150px;
-    height:150px;
+    width: 150px;
+    height: 150px;
     vertical-align: middle;
+}
+
+.bingoSquare {
+    height: 100px;
+    width: 100px;
+    border: 4px solid #44475a;
 }
