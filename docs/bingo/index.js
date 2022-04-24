@@ -1,13 +1,13 @@
 function getLine () {
-    const lines = ['Animated\n Movie', 'Hard R\n in the\n movie', "Dong's\n Rec", 'Time Left\n Shown\n Accidentally',
-            'Boobas', 'Non-English\n Film', 'Horror/Gore', 'Arguing\n Mid Movie', 'WRONG\n CHANNEL',
-            'Grammar\n wants to\n play\n Rocket\n League', 'Bad\n CGI/Green\n Screen', 'AD\n Placement',
-            'Bad Sex\n Scene', 'Sci-Fi', 'Cam talks\n the whole\n movie', '~gay~',
-            'Someone\n rhymes\n something\n with Pussy', 'Potty\n Break', 'Mad goes\n on Deafen', 'Action\n Movie',
-            'ASS', 'Someone\n spoils\n the movie', 'Amp\n Arrives', 'Hydro\n Homie\n on\n Screen',
-            'Brooke\n forgets\n to start\n the event', 'Documentary',
-            "Aliens\n when there\n really doesn't\n need to\n be aliens", 'Audience\n Stand-In',
-            'Major MCU\n Cameo'];
+    const lines = ['Animated Movie', 'Hard R in the movie', "Dong's Rec", 'Time Left Shown Accidentally',
+            'Boobas', 'Non-English Film', 'Horror/Gore', 'Arguing Mid Movie', 'WRONG CHANNEL',
+            'Grammar wants to play Rocket League', 'Bad CGI/Green Screen', 'AD Placement',
+            'Bad Sex Scene', 'Sci-Fi', 'Cam talks the whole movie', '~gay~',
+            'Someone rhymes something with Pussy', 'Potty Break', 'Mad goes on Deafen', 'Action Movie',
+            'ASS', 'Someone spoils the movie', 'Amp Arrives', 'Hydro Homie on Screen',
+            'Brooke forgets to start the event', 'Documentary',
+            "Aliens when there really doesn't need to be aliens", 'Audience Stand-In',
+            'Major MCU Cameo'];
 
     var r = Math.floor(Math.random() * (lines.length - 1));
     return lines[r];
@@ -34,7 +34,7 @@ for (var i = 0; i < 24; i++) {
     document.getElementById(id).value = line;
 }
 
-document.getElementById('middle').value = ":)\n WHEEL SPIN \n:)";
+document.getElementById('middle').value = ":) WHEEL SPIN :)";
 
 function hlBtn () {
   $(this).toggleClass('hlBtn');
