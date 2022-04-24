@@ -14,13 +14,15 @@ function getLine () {
 }
 
 const usedLines = [];
-for (var i = 0; i < 25; i++) {
+for (var i = 0; i < 24; i++) {
 
     var same = true;
 
     while (same) {
+
         var line = getLine();
         same = false;
+
         for (var j = 0; j < usedLines.length; j++) {
             if (usedLines[j] == line) same = true;
             }
@@ -32,7 +34,7 @@ for (var i = 0; i < 25; i++) {
     document.getElementById(id).value = line;
 }
 
-document.getElementById('b13').value = ":)\n WHEEL SPIN \n:)";
+document.getElementById('middle').value = ":)\n WHEEL SPIN \n:)";
 
 function hlBtn () {
   $(this).toggleClass('hlBtn');
