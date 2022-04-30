@@ -9,7 +9,6 @@ function getLine () {
         'Horror/Gore',
         'Arguing Mid Movie',
         'WRONG CHANNEL',
-        'Grammar wants to play Rocket League',
         'Bad CGI/Green Screen',
         'AD Placement',
         'Bad Sex Scene',
