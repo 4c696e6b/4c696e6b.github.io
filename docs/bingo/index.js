@@ -2,7 +2,6 @@ function getLine () {
     const lines = [
         'Animated Movie',
         'Hard R in the movie',
-        "Dong's Rec",
         'Time Left Shown Accidentally',
         'Boobas',
         'Non-English Film',
@@ -13,15 +12,13 @@ function getLine () {
         'AD Placement',
         'Bad Sex Scene',
         'Sci-Fi',
-        'Cam talks the whole movie',
         '~gay~',
         'Someone rhymes something with Pussy',
         'Potty Break',
-        'Mad goes on Deafen',
+        'Mad goes on Mute',
         'Action Movie',
         'ASS',
         'Someone spoils the movie',
-        'Amp Arrives',
         'Hydro Homie on Screen',
         'Brooke forgets to start the event',
         "Aliens when there really doesn't need to be aliens",
@@ -31,14 +28,15 @@ function getLine () {
         'R slur',
         'Plot Armor saves lives',
         'Cheap jumpscare',
-        'Mad defends his use of the J slur',
         'Main character has dead parents',
-        'Brooke complains about space',
         'DOG',
         'Documentary/ Based on a True Story',
         'The subtitles are ridiculous',
         "Link's stream does the thing",
-        'Main character accidentally murders a side character'
+        'Main character accidentally murders a side character',
+        'Roll Credits',
+        'Wildly Incorrect Science',
+        '1+ Year Time Skip'
         ];
 
     var r = Math.floor(Math.random() * (lines.length - 1));
