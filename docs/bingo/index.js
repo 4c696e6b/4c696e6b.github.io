@@ -7,7 +7,6 @@ function getLine () {
         'Non-English Film',
         'Horror/Gore',
         'Arguing Mid Movie',
-        'WRONG CHANNEL',
         'Bad CGI/Green Screen',
         'AD Placement',
         'Bad Sex Scene',
@@ -15,13 +14,11 @@ function getLine () {
         '~gay~',
         'Someone rhymes something with Pussy',
         'Potty Break',
-        'Mad goes on Mute',
         'Action Movie',
         'ASS',
         'Someone spoils the movie',
         'Hydro Homie on Screen',
         'Brooke forgets to start the event',
-        "Aliens when there really doesn't need to be aliens",
         'Audience Stand-In',
         'Major MCU Cameo',
         'F slur',
@@ -36,7 +33,9 @@ function getLine () {
         'Main character accidentally murders a side character',
         'Roll Credits',
         'Wildly Incorrect Science',
-        '1+ Year Time Skip'
+        '1+ Year Time Skip',
+        'Mad goes on Mute',
+        'SKRRT'
         ];
 
     var r = Math.floor(Math.random() * (lines.length - 1));
