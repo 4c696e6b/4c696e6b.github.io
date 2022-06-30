@@ -38,7 +38,7 @@ function getLine () {
         'SKRRT'
         ];
 
-    var r = Math.floor(Math.random() * (lines.length - 1));
+    var r = Math.floor(Math.random() * lines.length);
     return lines[r];
 }
 
