@@ -35,7 +35,9 @@ function getLine () {
         'Wildly Incorrect Science',
         '1+ Year Time Skip',
         'Mad goes on Mute',
-        'SKRRT'
+        'SKRRT',
+        'Fr*nch :/',
+        'Toes >:/'
         ];
 
     var r = Math.floor(Math.random() * lines.length);
