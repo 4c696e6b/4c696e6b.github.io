@@ -10,7 +10,7 @@ function getLine () {
         'Audience Stand-In',
         'Bad CGI/Green Screen',
         'Bad Sex Scene',
-        'Blantant Racism',
+        'Blatant Racism',
         'Boobas',
         'Brooke forgets to start the event',
         'Cheap jumpscare',
