@@ -8,6 +8,7 @@ function getLine () {
         'Arguing Mid Movie',
         'ASS',
         'Audience Stand-In',
+        'Audio Balance Go Brrrrrr',
         'Bad CGI/Green Screen',
         'Bad Sex Scene',
         'Blatant Racism',
