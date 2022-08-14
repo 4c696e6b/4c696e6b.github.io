@@ -12,7 +12,6 @@ function getLine () {
         'Bad Sex Scene',
         'Blatant Racism',
         'Boobas',
-        'Brooke forgets to start the event',
         'Cheap jumpscare',
         'Documentary/ Based on a True Story',
         'DOG',
@@ -21,7 +20,6 @@ function getLine () {
         'Horror/Gore',
         'Hydro Homie on Screen',
         "Link's stream does the thing",
-        'Mad goes on Mute',
         'Main character accidentally murders a side character',
         'Main character has dead parents',
         'Major MCU Cameo',
@@ -31,12 +29,12 @@ function getLine () {
         'Roll Credits',
         'Sci-Fi',
         'SKRRT',
-        'Someone rhymes something with Pussy',
         'Someone spoils the movie',
         'The subtitles are ridiculous',
         'Time Left Shown Accidentally',
         'Toes >:/',
-        'Wildly Incorrect Science'
+        'Wildly Incorrect Science',
+        'Who Asked??????'
         ];
 
     var r = Math.floor(Math.random() * lines.length);
