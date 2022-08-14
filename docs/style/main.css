@@ -10,13 +10,14 @@ body {
     padding-bottom: 30px;
     color: #f8f8f2;
     text-align: left;
-    font-family: Source Code Pro, Lucida Console, Monaco, monospace;
+    font-family: Atkinson Hyperlegible, sans-serif;
     }
 
 h1 {
     color: #bd93f9;
     font-size: 50px;
     text-align: center;
+    font-family: Source Code Pro, Lucida Console, Monaco, monospace;
     }
 
 h2 {
@@ -105,6 +106,7 @@ td {
     white-space: normal;
     word-wrap: normal;
     padding: 4px;
+    font-family: Atkinson Hyperlegible, sans-serif;
 }
 
 .bingoBtn:hover {
