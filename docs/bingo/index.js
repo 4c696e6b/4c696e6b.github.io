@@ -31,6 +31,7 @@ function getLine () {
         'Sci-Fi',
         'SKRRT',
         'Someone spoils the movie',
+        'Straight People be Like',
         'The subtitles are ridiculous',
         'Time Left Shown Accidentally',
         'Toes >:/',
