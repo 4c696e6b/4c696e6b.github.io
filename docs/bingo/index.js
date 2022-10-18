@@ -24,6 +24,7 @@ function getLine () {
         'Main character accidentally murders a side character',
         'Main character has dead parents',
         'Major MCU Cameo',
+        'Misogyny!!!!',
         'Non-English Film',
         'Plot Armor saves lives',
         'Potty Break',
@@ -46,9 +47,10 @@ function getLine () {
 const usedLines = [];
 for (var i = 0; i < 24; i++) {
 
+ 
     var same = true;
     while (same) {
-
+        
         var line = getLine();
         same = false;
 
@@ -63,6 +65,7 @@ for (var i = 0; i < 24; i++) {
 }
 
 document.getElementById('middle').value = ":) WHEEL SPIN :)";
+alert(temp);
 
 
 function hlBtn() {$(this).toggleClass('hlBtn');}
