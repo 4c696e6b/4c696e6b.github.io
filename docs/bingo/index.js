@@ -27,7 +27,6 @@ function getLine () {
         'Misogyny!!!!',
         'Non-English Film',
         'Plot Armor saves lives',
-        'Potty Break',
         'Roll Credits',
         'Sci-Fi',
         'SKRRT',
