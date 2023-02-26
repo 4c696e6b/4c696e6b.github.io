@@ -16,6 +16,7 @@ const lines = [
     'Documentary/ Based on a True Story',
     'DOG',
     'Fr*nch :/',
+    'Full Frontal',
     'Homophobia',
     'Horror/Gore',
     'Hydro Homie on Screen',
