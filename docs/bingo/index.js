@@ -20,7 +20,7 @@ const lines = [
     'Homophobia',
     'Horror/Gore',
     'Hydro Homie on Screen',
-    "Link's stream does the thing",
+    "The stream does the thing",
     'Main character accidentally murders a side character',
     'Main character has dead parents',
     'Major MCU Cameo',
