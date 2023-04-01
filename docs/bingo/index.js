@@ -1,67 +1,107 @@
-const lines = [
-    '"dog"',
-    '~gay~',
-    '1+ Year Time Skip',
-    'Action Movie',
-    'AD Placement',
-    'Animated Movie',
-    'ASS',
-    'Audience Stand-In',
-    'Audio Balance Go Brrrrrr',
-    'Bad CGI',
-    'Bad Sex Scene',
-    'Blatant Racism',
-    'Boobas',
-    'Cheap Jumpscare',
-    'Based on a True Story',
-    'DOG',
-    'Fr*nch :/',
-    'Full Frontal',
-    'Homophobia',
-    'Horror/Gore',
-    'Hydro Homie on Screen',
-    "Stream Does the Thing (tm)",
-    'Main Character Accidentally Murders a Side Character',
-    'Main Character has Dead Parents',
-    'Major MCU Cameo',
-    'Misogyny!!!!',
-    'Non-English Film',
-    'Plot Armor saves lives',
-    'Roll Credits',
-    'Sci-Fi',
-    'SKRRT',
-    'Straight People be Like',
-    'The Subtitles are Ridiculous',
-    'Time Left Accidentally Shown',
-    'Toes >:/',
-    'Wildly Incorrect Science',
-    'Who Asked??????'
-    ];
-
-
-var numOfSquares = 0;
-var len = lines.length;
 var r;
 
-for (var i = 0; i < 24; i++) {
+// set the middle square
+document.getElementById('middle').value = "Free Space";
 
-    // generate a random number based on the length of the array
-    r = Math.floor(Math.random() * len);
-    line = lines[r];
+for (var i = 1; i <= 5; i++) {
+    var id = "b" + String(i);
     
-    // swap the chosen line and the last line in the array
-    lines[r] = lines[len-1];
-    lines[len-1] = line;
-
-    // get the current square id and assign its value
-    var id = "b" + String(i+1);
-    document.getElementById(id).value = line;
+    var flag = true;
+    while (flag) {
     
-    len -= 1;
+        flag = false;
+        r =Math.floor(Math.random() * (15 - 1) + 1);
+    
+        for (var j = 1; j < i; j++) {
+            var tempId = "b" + String(j);
+            if (document.getElementById(tempId).value == r) {
+                flag = true;
+            }
+        }
+    }
+    
+    document.getElementById(id).value = r;
 }
 
-// set the middle square
-document.getElementById('middle').value = ":) WHEEL SPIN :)";
+for (var i = 1; i <= 5; i++) {
+    var id = "i" + String(i);
+    
+    var flag = true;
+    while (flag) {
+    
+        flag = false;
+        r =Math.floor(Math.random() * (30 - 16) + 16);
+    
+        for (var j = 1; j < i; j++) {
+            var tempId = "i" + String(j);
+            if (document.getElementById(tempId).value == r) {
+                flag = true;
+            }
+        }
+    }
+    
+    document.getElementById(id).value = r;
+}
+
+for (var i = 1; i <= 4; i++) {
+    var id = "n" + String(i);
+    
+    var flag = true;
+    while (flag) {
+    
+        flag = false;
+        r =Math.floor(Math.random() * (45 - 31) + 31);
+    
+        for (var j = 1; j < i; j++) {
+            var tempId = "n" + String(j);
+            if (document.getElementById(tempId).value == r) {
+                flag = true;
+            }
+        }
+    }
+    
+    document.getElementById(id).value = r;
+}
+
+for (var i = 1; i <= 5; i++) {
+    var id = "g" + String(i);
+    
+    var flag = true;
+    while (flag) {
+    
+        flag = false;
+        r =Math.floor(Math.random() * (60 - 46) + 46);
+    
+        for (var j = 1; j < i; j++) {
+            var tempId = "g" + String(j);
+            if (document.getElementById(tempId).value == r) {
+                flag = true;
+            }
+        }
+    }
+    
+    document.getElementById(id).value = r;
+}
+
+for (var i = 1; i <= 5; i++) {
+    var id = "o" + String(i);
+    
+    var flag = true;
+    while (flag) {
+    
+        flag = false;
+        r =Math.floor(Math.random() * (75 - 61) + 61);
+    
+        for (var j = 1; j < i; j++) {
+            var tempId = "o" + String(j);
+            if (document.getElementById(tempId).value == r) {
+                flag = true;
+            }
+        }
+    }
+    
+    document.getElementById(id).value = r;
+}
 
 // function that allows the squares to be clicked
 function hlBtn() {$(this).toggleClass('hlBtn');}
