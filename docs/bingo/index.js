@@ -19,10 +19,7 @@ for (var col = 1; col <= 5; col++) {
         document.getElementById(id).value = r;
     }
 }
-
-// set the middle square
 document.getElementById('33').value = "Free Space";
-
 
 function bingoNum (col) {
     
