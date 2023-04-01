@@ -7,7 +7,6 @@ for (var col = 1; col <= 5; col++) {
     
         var flag = true;
         while (flag) {
-    
             flag = false;
             r = bingoNum(col);
     
@@ -28,23 +27,12 @@ document.getElementById('33').value = "Free Space";
 function bingoNum (col) {
     
     switch(col) {
-        
-        case 1:
-            return Math.floor(Math.random() * (15 - 1) + 1);
-        
-        case 2:
-            return Math.floor(Math.random() * (30 - 16) + 16);
-        
-        case 3:
-            return Math.floor(Math.random() * (45 - 31) + 31);
-        
-        case 4:
-            return Math.floor(Math.random() * (60 - 46) + 46);
-        
-        case 5:
-            return Math.floor(Math.random() * (75 - 61) + 61);
+        case 1: return Math.floor(Math.random() * (15 - 1) + 1);
+        case 2: return Math.floor(Math.random() * (30 - 16) + 16);
+        case 3: return Math.floor(Math.random() * (45 - 31) + 31);
+        case 4: return Math.floor(Math.random() * (60 - 46) + 46);
+        case 5: return Math.floor(Math.random() * (75 - 61) + 61);
     }
 }
 
-// function that allows the squares to be clicked
 function hlBtn() {$(this).toggleClass('hlBtn');}
