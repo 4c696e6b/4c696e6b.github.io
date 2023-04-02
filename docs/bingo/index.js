@@ -1,35 +1,67 @@
+const lines = [
+    '"dog"',
+    '~gay~',
+    '1+ Year Time Skip',
+    'Action Movie',
+    'AD Placement',
+    'Animated Movie',
+    'ASS',
+    'Audience Stand-In',
+    'Audio Balance Go Brrrrrr',
+    'Bad CGI',
+    'Bad Sex Scene',
+    'Blatant Racism',
+    'Boobas',
+    'Cheap Jumpscare',
+    'Based on a True Story',
+    'DOG',
+    'Fr*nch :/',
+    'Full Frontal',
+    'Homophobia',
+    'Horror/Gore',
+    'Hydro Homie on Screen',
+    "Stream Does the Thing (tm)",
+    'Main Character Accidentally Murders a Side Character',
+    'Main Character has Dead Parents',
+    'Major MCU Cameo',
+    'Misogyny!!!!',
+    'Non-English Film',
+    'Plot Armor saves lives',
+    'Roll Credits',
+    'Sci-Fi',
+    'SKRRT',
+    'Straight People be Like',
+    'The Subtitles are Ridiculous',
+    'Time Left Accidentally Shown',
+    'Toes >:/',
+    'Wildly Incorrect Science',
+    'Who Asked??????'
+    ];
+
+
+var numOfSquares = 0;
+var len = lines.length;
 var r;
 
-for (var col = 1; col <= 5; col++) {
-    
-    for (var i = 1; i <= 5; i++) {
-        var id = col + String(i);
-    
-        var flag = true;
-        while (flag) {
-            flag = false;
-            r = bingoNum(col);
-    
-            for (var j = 1; j < i; j++) {
-                var tempId = col + String(j);
-                if (document.getElementById(tempId).value == r)
-                    flag = true;
-            }
-        }
-        document.getElementById(id).value = r;
-    }
-}
-document.getElementById('33').value = "Free Space";
+for (var i = 0; i < 24; i++) {
 
-function bingoNum (col) {
+    // generate a random number based on the length of the array
+    r = Math.floor(Math.random() * len);
+    line = lines[r];
     
-    switch(col) {
-        case 1: return Math.floor(Math.random() * (15 - 1) + 1);
-        case 2: return Math.floor(Math.random() * (30 - 16) + 16);
-        case 3: return Math.floor(Math.random() * (45 - 31) + 31);
-        case 4: return Math.floor(Math.random() * (60 - 46) + 46);
-        case 5: return Math.floor(Math.random() * (75 - 61) + 61);
-    }
+    // swap the chosen line and the last line in the array
+    lines[r] = lines[len-1];
+    lines[len-1] = line;
+
+    // get the current square id and assign its value
+    var id = "b" + String(i+1);
+    document.getElementById(id).value = line;
+    
+    len -= 1;
 }
 
+// set the middle square
+document.getElementById('middle').value = ":) WHEEL SPIN :)";
+
+// function that allows the squares to be clicked
 function hlBtn() {$(this).toggleClass('hlBtn');}
